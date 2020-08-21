@@ -390,6 +390,11 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
+
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package
