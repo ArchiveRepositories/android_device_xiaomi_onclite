@@ -22,5 +22,33 @@
 <resources>
     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
     <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Whether to show VoWiFi icon in the status bar -->
+    <bool name="config_display_vowifi">true</bool>
+
+    <!-- Default no. of QS tile rows and columns -->
+    <integer name="config_qs_columns_portrait">4</integer>
+    <integer name="config_qs_rows_portrait">2</integer>
+    <integer name="config_qs_columns_landscape">5</integer>
+    <integer name="config_qs_rows_landscape">1</integer>
+
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">false</bool>
+
+    <!-- Enable face auth only when swiping security view -->
+    <bool name="config_faceAuthOnlyOnSecurityView">false</bool>
+
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1</integer>
+
+    <!-- The CPUs to display in CPUInfoService view -->
+    <string name="config_displayCpus" translatable="false"></string>
+
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false"></string>
+
 </resources>
 
