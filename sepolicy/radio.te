@@ -1,0 +1,2 @@
+allow radio radio:file { read };
+allow radio radio:file { getattr };

@@ -1,0 +1,1 @@
+allow qcom_ims_prop qcom_ims_prop:file { read };

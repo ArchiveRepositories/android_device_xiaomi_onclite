@@ -1,0 +1,1 @@
+allow fp_prop fp_prop:file { read };

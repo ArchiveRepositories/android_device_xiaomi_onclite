@@ -1,0 +1,2 @@
+allow firmware_file firmware_file:dir { getattr };
+allow firmware_file firmware_file:filesystem { getattr };

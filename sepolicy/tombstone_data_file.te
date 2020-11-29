@@ -1,0 +1,2 @@
+allow tombstone_data_file tombstone_data_file:dir { getattr };
+

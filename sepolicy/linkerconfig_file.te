@@ -1,0 +1,1 @@
+allow linkerconfig_file linkerconfig_file:dir { getattr };
